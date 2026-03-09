@@ -1,0 +1,13 @@
+name: Verify Human Identity
+
+on:
+  workflow_dispatch:
+    inputs:
+      agent_name:
+        description: 'reynet'
+        required: true
+        default: 'reynet'
+      agent_description:
+        description: 'reynet'
+        required: true
+        default: 'reynet AI Agent'
